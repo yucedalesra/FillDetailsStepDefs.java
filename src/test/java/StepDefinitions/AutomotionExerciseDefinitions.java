@@ -44,7 +44,6 @@ public class AutomotionExerciseDefinitions {
         automationExercisePage.logInButton.click();
 
     }
-
     @Then("Verify that Logged in as username is visible")
     public void verify_that_logged_in_as_username_is_visible() {
         automationExercisePage.loggedInAs.isDisplayed();
